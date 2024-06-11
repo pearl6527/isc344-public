@@ -2,7 +2,7 @@
 ## Brief Description
 This project is a fill-in-the-blank activity with a word bank containing draggable elements that allows a user to build their own poem. The poem template is an English translation by myself of the Chinese poem "Fill-in-the-Blanks 填充題" by contemporary Taiwanese poet Hsiao I-Hui 蕭詒徽. Users may store their poem in a database, retrieve their poem (or any poem) from the database, and send their poem to me via LINE (though they probably have no reason to do that).
 
-## Frontend
+## Client-Side / Frontend
 
 ### Relevant Files
 * `fill-in-the-blanks/index.html`: Contains the HTML for the web app.
@@ -79,7 +79,7 @@ This project is a fill-in-the-blank activity with a word bank containing draggab
   The `message` is the poem to be sent, and the `accessToken` is the access token to a LINE Notify chat connected to my LINE account.
 
 
-## Backend
+## Server-Side / Backend
 ### Relevant Files
 * `save.php`: Contains PHP code to handle HTTP requests from client.
 
