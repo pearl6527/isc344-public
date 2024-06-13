@@ -76,7 +76,7 @@ This project is a fill-in-the-blank activity with a word bank containing draggab
     access_token: accessToken
   }
   ```
-  The `message` is the poem to be sent, and the `accessToken` is the access token to a LINE Notify chat connected to my LINE account.
+  The `message` is the poem to be sent, and the `accessToken` is the access token to a LINE Notify chat connected to my LINE account. In the current version of the site, I have removed the access token from the frontend JavaScript file `util.js` and placed it instead in the backend PHP file `save.php`.
 
 
 ## Server-Side / Backend
