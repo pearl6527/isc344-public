@@ -122,4 +122,4 @@ This project is a fill-in-the-blank activity with a word bank containing draggab
 
   $response = curl_exec($ch);
   ```
-  I tried using the LINE Messaging API to send individual messages to users who add a LINE Official Account as a friend, but that required HTTPS and not HTTP, so while I have written code to handle this, I have not been able to actually test it out.
+  I tried using the [LINE Messaging API](https://developers.line.biz/en/services/messaging-api/) to send individual messages to users who add a LINE Official Account as a friend, but that required HTTPS and not HTTP, so while I have written code to handle this, I have not been able to actually test it out.
