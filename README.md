@@ -104,7 +104,7 @@ This project is a fill-in-the-blank activity with a word bank containing draggab
   ```sql
   const SELECT_SQL = 'SELECT * FROM poems WHERE id = :id';
   ```
-* **Send a Poem:** A `POST` request with a `notify` action calls the `send_line_notification($message, $accessToken)` function in `save.php`. This function makes a `POST` request using [cURL](https://www.php.net/manual/en/book.curl.php) to the LINE Notify API at `https://notify-api.line.me/api/notify`:
+* **Send a Poem:** A `POST` request with a `notify` action calls the `send_line_notification($message, $accessToken)` function in `save.php`. This function makes a `POST` request using [cURL](https://www.php.net/manual/en/book.curl.php) to the [LINE Notify API](https://notify-bot.line.me/doc/en/) at `https://notify-api.line.me/api/notify`:
   ```php
   $url = 'https://notify-api.line.me/api/notify';
   $headers = [
